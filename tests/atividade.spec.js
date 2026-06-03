@@ -23,6 +23,6 @@ test('Deve fazer login no github', async ({ page }) => {
   console.log(' Pausa');
   await page.waitForTimeout(2000);
 
-  await page.screenshot({ path: 'resultado_busca_livro.png', fullPage: true });
+  await page.screenshot({ path: 'github_menu.png', fullPage: true });
   console.log(' Screenshot do site salvo!');
 });

@@ -14,7 +14,7 @@ test('Deve fazer login no github', async ({ page }) => {
  
   console.log(' Inserindo e-mail e senha...');
   await inputEmail.fill('brayanskad');
-  await inputSenha.fill('Narg1l3bb2!');
+  await inputSenha.fill('');
 
   const botaoLogin = page.locator('input[type="submit"], input[value="Sign in"]');
   console.log(' Clicando no botão de login...');

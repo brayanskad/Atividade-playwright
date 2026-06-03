@@ -13,7 +13,7 @@ test('Deve fazer login no github', async ({ page }) => {
   const inputSenha = page.locator('input[name="password"], #password');
  
   console.log(' Inserindo e-mail e senha...');
-  await inputEmail.fill('brayanskad');
+  await inputEmail.fill('');
   await inputSenha.fill('');
 
   const botaoLogin = page.locator('input[type="submit"], input[value="Sign in"]');
